@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif
+}
+
+.header {
+    background: white;
+}
+
+.navigation {
+    height: 150px;
+    margin: 100px auto 0 auto;
+}
+
+.navigation > ul {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin: 20px auto;
+}
+
+.navigation > ul > li {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: gray;
+}
+
+.navigation > ul > li:hover {
+    cursor: pointer;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header-logo-content {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 20px 0 50px;
+}
+
+.header-logo-content h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.header-logo-content p {
+    font-size: 26px;
+    line-height: 1.5;
+    padding: 50px 0;
+}
+
+.header-logo-content button {
+    background: #FF0000;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 24px;
+    border: 0;
+    font-size: 20px;
+}
+
+.header-logo-image-wrapper {
+    flex-basis: 60%;
+}
+
+.header-logo-image-wrapper > img {
+    position: relative;
+    left: 10px;
+}
+
+.top {
+    display: flex;
+    background: #FBFCFF;
+}
+
+.top-left {
+    flex-basis: 50%;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.top-right {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top-right-header {
+    text-align: right;
+    width: fit-content;
+}
+
+.top-right-header > h2 {
+    font-size: 108px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.top-right-header > h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.top-right-header .performance {
+    font-weight: bolder;
+}
+
+.top-right-content > p {
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+.top-right-footer {
+    display: flex;
+    align-items: center;
+}
+
+.top-right-footer > span {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.top-right-footer > button {
+    background: #FF0000;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 24px;
+    border: 0;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.middle {
+    background: #575757;
+    text-align: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.middle-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content > p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 200;
+    margin-left: 30px;
+}
+
+.middle-content-span {
+    font-weight: 600;
+}
+
+.middle-footer > p {
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.bottom {
+    display: flex;
+    justify-content: stretch;
+}
+
+.bottom-left {
+    flex-basis: 50%;
+}
+
+
+.bottom-left > img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.bottom-right {
+    background: #DADADA;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.bottom-right-content {
+    padding: 150px 0 0 20px;
+}
+
+.bottom-right-content > h2 {
+    font-size: 120px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.bottom-right-content > p {
+    font-size: 64px;
+}
+
+.bottom-middle-span {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px auto;
+    font-size: 48px;
+}
